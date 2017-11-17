@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.github.cj_sv.coffeeshop.MainActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/laptopcup"
+            android:id="@+id/laptopcop"
+            android:scaleType="centerCrop"
+            android:contentDescription="Coffee Shop Banner"/>
+
+        <TextView
+            android:id="@+id/coffeenest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textSize="32sp"
+            android:textColor="#EFEBE9"
+            android:paddingRight="32sp"
+            android:paddingBottom="8sp"
+            android:layout_alignBottom="@id/laptopcop"
+            android:layout_alignRight="@id/laptopcop"
+            android:text="The Coffee Nest"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/laptopcop"
+            android:layout_alignRight="@id/laptopcop"
+            android:paddingRight="32sp"
+            android:paddingBottom="8sp"
+            android:textSize="12sp"
+            android:textColor="#EFEBE9"
+            android:text="''Enjoy coffee, fresh out of the nest.''"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8sp"
+        android:paddingLeft="16sp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_schedule_black_24dp"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="4sp"
+            android:paddingLeft="8sp"
+            android:text="Open 24/7"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16sp"
+            android:src="@mipmap/ic_location_on_black_24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="4sp"
+            android:paddingLeft="8sp"
+            android:text="#1010 Session Road, Baguio City"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8sp"
+        android:paddingLeft="16sp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_call_black_24dp"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="4sp"
+            android:paddingLeft="8sp"
+            android:text="555-55-55"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16sp"
+            android:src="@mipmap/ic_email_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="4sp"
+            android:paddingLeft="8sp"
+            android:text="coffeenest@gmail.com"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="16sp"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:text="''We offer the best coffee in town, from local flavors to exotic aromas we know you'll enjoy''"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="16sp"
+            android:paddingLeft="16sp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Try our best sellers:"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="8sp"
+            android:paddingLeft="16sp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_free_breakfast_black_24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="4sp"
+                android:paddingLeft="8sp"
+                android:textSize="18sp"
+                android:text="Benguet Arabica"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="8sp"
+            android:paddingLeft="16sp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_free_breakfast_black_24dp"/>
+
+            <TextView
+                android:id="@+id/middletext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="4sp"
+                android:paddingLeft="8sp"
+                android:textSize="18sp"
+                android:text="Kalinga Exelsa"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="8sp"
+            android:paddingLeft="16sp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_free_breakfast_black_24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="4sp"
+                android:paddingLeft="8sp"
+                android:textSize="18sp"
+                android:text="Coffee Nest Blend"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="8sp"
+            android:paddingLeft="16sp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_free_breakfast_black_24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="4sp"
+                android:paddingLeft="8sp"
+                android:textSize="18sp"
+                android:text="Highland Blend"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="32sp"
+            android:paddingLeft="8sp"
+            android:textSize="16sp"
+            android:text="*Available in Dark, Medium, and Light Roasts"/>
+
+    </LinearLayout>
+
+</LinearLayout>
